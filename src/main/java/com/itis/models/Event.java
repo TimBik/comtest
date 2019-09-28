@@ -17,11 +17,13 @@ public class Event {
 
     private String name;
     private long target;
+    private long currentMoney;
     private String description;
     private Date publication;
     private Date deadLine;
     @ManyToOne
     private Organization organization;
+    private String district;
 
 
 }

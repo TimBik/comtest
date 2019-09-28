@@ -13,7 +13,7 @@ public class Organization {
     @OneToOne
     private User user;
     private String organizationName;
-    private String bankAccount;
+    private String inn;
 
 
 }

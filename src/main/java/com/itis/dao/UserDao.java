@@ -2,6 +2,7 @@ package com.itis.dao;
 
 import com.itis.models.User;
 import com.itis.util.HibernateSessionFactoryUtil;
+import org.hibernate.Hibernate;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 

@@ -19,4 +19,5 @@ public class Donator {
     private Date birthDate;
     private String phoneNumber;
     private char gender;
+    private String district;
 }

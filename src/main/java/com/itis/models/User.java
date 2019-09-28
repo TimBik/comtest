@@ -17,12 +17,12 @@ public class User implements UserDetails {
     private String username;
     private String password;
     private boolean active;
+    private Role role;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return null;
     }
-
 
 
     // TODO: 23.06.2019
