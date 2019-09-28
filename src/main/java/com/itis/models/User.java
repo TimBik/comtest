@@ -23,15 +23,7 @@ public class User implements UserDetails {
         return null;
     }
 
-    @Override
-    public String getPassword() {
-        return this.password;
-    }
 
-    @Override
-    public String getUsername() {
-        return this.username;
-    }
 
     // TODO: 23.06.2019
     @Override
